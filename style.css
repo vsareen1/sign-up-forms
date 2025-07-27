@@ -11,7 +11,44 @@ body {
 }
 
 .introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url('assets/sign-up-form-bg-unsplash.jpg');
     background-size: cover;
     width: 33%;
+}
+
+.opaque-container {
+    display: flex;
+    flex-direction: row;;
+    height: 120px;
+    background-color: rgba(0,0,0, 0.4);
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.opaque-container img {
+    height: 100px;
+    width: 80px;
+}
+
+.opaque-container p {
+    font-size: 72px;
+    color: white
+}
+
+
+.footer {
+    color: rgba(255, 245, 238, 0.744);
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer a{
+    color: rgba(255, 245, 238, 0.744);
+    font-size: 12px;
+    text-align: center;
 }
